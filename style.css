@@ -1,0 +1,17 @@
+body {
+  color: rgb(133, 133, 133);
+  background: rgb(38, 41, 41);
+  /* background-image: url("/Users/robinmartinsson/Desktop/Nackademin/Klientutveckling/Inlämningsuppgifter/Inlämningsuppgift_1/images/meric-dagli-7NBO76G5JsE-unsplash.jpg"); */
+  /* background-image: url("/Users/robinmartinsson/Desktop/Nackademin/Klientutveckling/Inlämningsuppgifter/Inlämningsuppgift_1/images/meric-dagli-7NBO76G5JsE-unsplash.jpg"); */
+  /* background-image: url(/Users/robinmartinsson/Desktop/Nackademin/Klientutveckling/Inlämningsuppgifter/Inlämningsuppgift_1/images/mountains.jpg); */
+  /* object-fit: cover; */
+  /* background-image: url("/Users/robinmartinsson/Desktop/Nackademin/Klientutveckling/Inlämningsuppgifter/Inlämningsuppgift_1/images/abstract.jpg"); */
+}
+nav a {
+  color: aliceblue;
+}
+
+h1 {
+}
+p {
+}
