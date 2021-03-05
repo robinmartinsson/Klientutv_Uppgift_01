@@ -1,3 +1,7 @@
+/* html {
+  background-color: bisque;
+} */
+
 body {
   color: rgb(133, 133, 133);
   background: rgb(38, 41, 41);
@@ -11,7 +15,84 @@ nav a {
   color: aliceblue;
 }
 
-h1 {
+nav a:hover {
+  color: darkblue;
 }
+
+nav {
+  Slide
+}
+
+footer {
+  font-weight: bolder;
+  color: azure;
+  /* background-color: coral; */
+}
+
+img {
+  width: 500;
+  height: 300;
+}
+
+h2 {
+  /* background-color: coral; */
+}
+
+/* h1 {
+}
+
 p {
+} */
+/* 
+.github:link,
+.github:visited {
+  color: darkgreen;
+} */
+
+.github:hover {
+  color: darkblue;
+  font-size: 1.1rem;
+}
+
+.linkedin:link,
+.linkedin:visited {
+  color: darkgreen;
+}
+.linkedin:hover {
+  color: darkblue;
+}
+
+a :hover {
+  color: darkcyan;
+}
+
+.mailto:link {
+  color: green;
+}
+
+.mailto :hover {
+  color: wheat;
+}
+
+iframe{
+  border-radius: 5%;
+}
+
+img{
+  float: inline-start;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* border-radius: 10px; */
+  padding: 20px;
+  /* object-fit: cover; */
+
+}
+
+.map {
+  -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+       -o-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
