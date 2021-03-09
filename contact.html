@@ -6,26 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-family: "Merriweather", serif;
+      }
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+      footer {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <nav class="header-links">
+    <!-- <nav class="header-links">
       <a href="index.html">Index</a>
       <a href="portfolio.html">Portfolio</a>
-    </nav>
+    </nav> -->
+    <header>
+      <div class="container">
+        <nav class="nav-header">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <h1>Contact</h1>
-    <p>
+    <p class="contact">
       Robin Martinsson
       <br />
       0739065073
       <br />
-      <a href="mailto:robin.martinsson@yh.nackademin.se"
-        >Robin.Martinsson@yh.nackademin.se</a
+      <a class="mailto" href="mailto:martinsson.r@gmail.com"
+        >martinsson.r@gmail.com</a
       >
     </p>
 
     <iframe
       class="map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1017.4359151669826!2d18.014709635556823!3d59.33509365032703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d8092339611%3A0xd5e908e0e1969330!2sLindhagensterrassen%209%2C%20112%2018%20Stockholm!5e0!3m2!1ssv!2sse!4v1614614541575!5m2!1ssv!2sse"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4069.5859211048373!2d18.00893563181982!3d59.33641037664523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f762a82e0f785%3A0xfec93ad121843808!2sStadshagen%2C%20Kungsholmen%2C%20Stockholm!5e0!3m2!1ssv!2sse!4v1615278392642!5m2!1ssv!2sse"
       width="600"
       height="450"
       style="border: 0"
@@ -39,10 +66,9 @@
       <br />
       <p>
         Copyright &copy; 2021 - Robin Martinsson -
-        Robin.Martinsson@yh.nackademin.se
-        <!-- <a href="mailto:robin.martinsson@yh.nackademin.se"
-          >Robin.Martinsson@yh.nackademin.se</a
-        > -->
+        <a class="mailto" href="mailto:martinsson.r@gmail.com"
+          >martinsson.r@gmail.com</a
+        >
       </p>
     </footer>
     <br />

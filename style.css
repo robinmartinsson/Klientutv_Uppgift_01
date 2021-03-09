@@ -1,22 +1,15 @@
-/* html,
-body {
-  height: fit-content;
-} */
-
 * {
   margin: 0 auto;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
   text-align: center;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
   color: rgb(133, 133, 133);
   background: rgb(38, 41, 41);
-  /* font-family: "Open Sans", sans-serif, Verdana, Geneva, Tahoma; */
-
-
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 nav a {
@@ -29,10 +22,8 @@ nav a:hover {
 }
 
 footer {
-  /* margin-top: 90%; */
   font-weight: lighter;
   color: rgb(194, 186, 157);
-  /* background: rgb(64, 70, 70); */
   width: 600px;
 }
 
@@ -43,8 +34,7 @@ img {
 
 h1,
 h2 {
-  /* text-align: center; */
-  color: rgb(216, 230, 241);
+  color: rgb(192, 191, 191);
 }
 h3 {
   color: rgb(206, 197, 197);
@@ -52,48 +42,32 @@ h3 {
 
 p {
   width: 600px;
-  /* text-align: left; */
-}
-/* h1 {
 }
 
-p {
-} */
+.contact {
+  color: rgb(133, 133, 133);
+}
 
 .github:link,
 .github:visited {
-  /* color: rgb(9, 120, 139); */
   color: rgb(163, 160, 160);
 }
 
 .github:hover {
-  /* color: rgb(32, 200, 230); */
-  /* font-size: 1.1rem; */
   color: rgb(228, 217, 217);
 }
 
 .linkedin:link,
 .linkedin:visited {
-  /* color: rgb(9, 120, 139); */
   color: rgb(163, 160, 160);
 }
 .linkedin:hover {
-  /* color: rgb(32, 200, 230); */
   color: rgb(228, 217, 217);
 }
 
 a :hover {
   color: darkcyan;
 }
-
-/* 
-.mailto:link {
-  color: green;
-}
-
-.mailto :hover {
-  color: wheat;
-} */
 
 iframe {
   border-radius: 5%;
@@ -131,26 +105,13 @@ img {
   object-fit: contain;
 }
 
-/* 
-
-.sidefoot{
-  color: cornsilk;
-
-} */
-
 .header-links {
   text-align: left;
   padding: 20px;
-  
 }
 
 .map {
   margin: 25px;
-}
-
-#footer-mail {
-  color: aqua;
-  bac
 }
 
 #project-list {
@@ -160,4 +121,42 @@ img {
 
 #connect-links {
   margin-top: 10px;
+}
+
+.mailto:hover {
+  color: rgb(253, 243, 204);
+}
+
+a {
+  color: rgb(194, 186, 157);
+}
+
+.container {
+  width: 80%;
+}
+header {
+  /* background-color: #55d6aa; */
+  background-color: rgb(26, 26, 15);
+  margin-bottom: 20px;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav-header {
+  float: center;
+}
+.nav-header ul {
+  /* margin: 0;
+  padding: 0; */
+  list-style: none;
+}
+.nav-header li {
+  display: inline-block;
+  margin: 0 30px;
+  /* margin: center; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
 }
