@@ -13,7 +13,6 @@ body {
 
 nav a {
   color: rgb(194, 186, 157);
-  size: 4rem;
 }
 
 nav a:hover {
@@ -27,8 +26,8 @@ footer {
 }
 
 img {
-  width: 500;
-  height: 300;
+  width: 500rem;
+  height: 300rem;
 }
 
 h1,
@@ -140,9 +139,7 @@ header::after {
   display: table;
   clear: both;
 }
-.nav-header {
-  float: center;
-}
+
 .nav-header ul {
   list-style: none;
 }
